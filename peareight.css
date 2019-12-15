@@ -1,0 +1,115 @@
+/*
+* @Author: Lenovo
+* @Date:   2019-12-11 18:32:47
+* @Last Modified by:   Lenovo
+* @Last Modified time: 2019-12-15 11:08:48
+*/
+*{
+	padding: 0;
+	margin: 0;	
+}
+
+ul {
+    list-style: none;
+}
+.screen{
+	height: 30px;
+	background-color: #ccc;
+	width: 1005;
+}
+.wenzi{
+	width: 1200px;
+	height: 30px;
+	line-height: 30px;
+	margin: 0 auto;
+	/* overflow: hidden;*/
+}
+.laba{
+	width:23px;
+	height: 30px;
+	position: relative;
+	left: 100px;
+/* 	float: left; */
+	top: -7px;
+	display: inline-block;
+}
+ .roll{
+	width: 1000px;
+	height: 30px;
+	position: relative;
+/* 	float: right; */
+	left: 100px;
+	overflow: hidden;
+	right:0px;
+	display: inline-block;
+/* 	border: 1px solid red; */
+} 
+.r11{
+	width: 760px;
+}
+#r1 {
+	width: 900px;
+	color: red;
+	position: relative;
+}
+.rAll{
+	width: 1520px;
+ */	position: absolute;
+}
+.box{
+	width: 1200px;
+	height: 397px;
+	margin: 20px auto;
+	position: relative;
+	overflow: hidden;
+}
+.slider{
+	width: 8400px;
+	position: absolute;
+	left: -1200px;
+}
+.slide{
+	width: 1200px;
+	overflow: hidden;
+	float: left;
+}
+.box>span{
+	display: block;
+	width: 30px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	top: 175px;
+	line-height: 50px;
+	background-color: rgb(250, 0, 0);
+	font-size: 30px;
+	position: absolute;
+	opacity: 50%;
+}
+#left{
+	left: 30px;
+}
+#right{
+	right: 30px;
+}
+.nav{
+	position: absolute;
+	left: 500px;
+	bottom: 20px;
+}
+.nav>li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: #ccc;
+	cursor: pointer;
+	margin: 0 10px;
+	text-align: center;
+	border-radius: 50%;
+}
+.nav .active{
+	background-color: red;
+	margin: 0 10px;
+	text-align: center;
+	color: white;
+}
